@@ -5,7 +5,8 @@ import "./styles/app.scss"
 import { createContext } from "react";
 
 export const Context = createContext({isAuthenticated:false});
-export const server = "https://todoapp-oedb.onrender.com/api/v1";
+
+export const server = "https://todoapp-oedb.onrender.com/api/v1"
 
 const AppWrapper = ()=>{
 

@@ -8,6 +8,8 @@ import toast,{ Toaster } from "react-hot-toast";
 import { useContext, useEffect } from "react";
 import axios from "axios";
 import { Context, server } from "./main";
+
+
 const App = () => {
 
     const {setUser,setIsAuthenticated,setLoading} = useContext(Context);
